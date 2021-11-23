@@ -30,5 +30,13 @@ namespace KursachProject_Kinoteatr
 
             this.Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form form_service = new Form_ServiceMeny();
+            form_service.Show();
+
+            this.Close();
+        }
     }
 }

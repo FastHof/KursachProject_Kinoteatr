@@ -26,5 +26,23 @@ namespace KursachProject_Kinoteatr
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form_CreateOrder_FormClosed(object sender, FormClosedEventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form form_orders = new Form_OrdersList();
+            form_orders.Show();
+
+            this.Close();
+        }
     }
 }

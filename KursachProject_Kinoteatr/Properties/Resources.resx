@@ -121,6 +121,9 @@
   <data name="image_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="fon 4_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fon 4_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="image_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -136,7 +139,7 @@
   <data name="fon 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fon 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fon 4_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fon 4_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fon 4_41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fon 4_41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
