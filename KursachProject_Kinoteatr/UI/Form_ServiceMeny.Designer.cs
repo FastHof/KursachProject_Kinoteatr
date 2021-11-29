@@ -86,9 +86,9 @@ namespace KursachProject_Kinoteatr
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Location = new System.Drawing.Point(12, 12);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.Size = new System.Drawing.Size(90, 40);
             this.button4.TabIndex = 3;
-            this.button4.Text = "Назад";
+            this.button4.Text = "Сменить пользователя";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -110,7 +110,7 @@ namespace KursachProject_Kinoteatr
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::KursachProject_Kinoteatr.Properties.Resources.fon_21;
+            this.BackgroundImage = global::KursachProject_Kinoteatr.Properties.Resources.fon_22;
             this.ClientSize = new System.Drawing.Size(709, 388);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);

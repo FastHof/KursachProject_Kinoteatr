@@ -52,7 +52,7 @@ namespace KursachProject_Kinoteatr
             this.listBox_Moves.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listBox_Moves.FormattingEnabled = true;
             this.listBox_Moves.ItemHeight = 20;
-            this.listBox_Moves.Location = new System.Drawing.Point(12, 130);
+            this.listBox_Moves.Location = new System.Drawing.Point(12, 149);
             this.listBox_Moves.Name = "listBox_Moves";
             this.listBox_Moves.Size = new System.Drawing.Size(169, 124);
             this.listBox_Moves.TabIndex = 0;
@@ -62,7 +62,7 @@ namespace KursachProject_Kinoteatr
             this.listBox_Show.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listBox_Show.FormattingEnabled = true;
             this.listBox_Show.ItemHeight = 20;
-            this.listBox_Show.Location = new System.Drawing.Point(187, 130);
+            this.listBox_Show.Location = new System.Drawing.Point(187, 149);
             this.listBox_Show.Name = "listBox_Show";
             this.listBox_Show.Size = new System.Drawing.Size(169, 124);
             this.listBox_Show.TabIndex = 1;
@@ -73,7 +73,7 @@ namespace KursachProject_Kinoteatr
             this.checkBox1.BackColor = System.Drawing.Color.Transparent;
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.checkBox1.ForeColor = System.Drawing.SystemColors.Control;
-            this.checkBox1.Location = new System.Drawing.Point(536, 128);
+            this.checkBox1.Location = new System.Drawing.Point(536, 147);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(123, 20);
             this.checkBox1.TabIndex = 2;
@@ -82,7 +82,7 @@ namespace KursachProject_Kinoteatr
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(362, 153);
+            this.numericUpDown1.Location = new System.Drawing.Point(362, 172);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(46, 20);
             this.numericUpDown1.TabIndex = 4;
@@ -93,7 +93,7 @@ namespace KursachProject_Kinoteatr
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(414, 155);
+            this.label1.Location = new System.Drawing.Point(414, 174);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(32, 16);
             this.label1.TabIndex = 5;
@@ -101,7 +101,7 @@ namespace KursachProject_Kinoteatr
             // 
             // numericUpDown2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(362, 180);
+            this.numericUpDown2.Location = new System.Drawing.Point(362, 199);
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(45, 20);
             this.numericUpDown2.TabIndex = 6;
@@ -112,7 +112,7 @@ namespace KursachProject_Kinoteatr
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(413, 182);
+            this.label2.Location = new System.Drawing.Point(413, 201);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(49, 16);
             this.label2.TabIndex = 7;
@@ -124,7 +124,7 @@ namespace KursachProject_Kinoteatr
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ForeColor = System.Drawing.SystemColors.Control;
-            this.label3.Location = new System.Drawing.Point(362, 128);
+            this.label3.Location = new System.Drawing.Point(362, 147);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(85, 20);
             this.label3.TabIndex = 8;
@@ -149,7 +149,7 @@ namespace KursachProject_Kinoteatr
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.ForeColor = System.Drawing.SystemColors.Control;
-            this.label4.Location = new System.Drawing.Point(532, 151);
+            this.label4.Location = new System.Drawing.Point(532, 170);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(164, 20);
             this.label4.TabIndex = 10;
@@ -162,7 +162,7 @@ namespace KursachProject_Kinoteatr
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe Script", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.ForeColor = System.Drawing.SystemColors.Control;
-            this.button2.Location = new System.Drawing.Point(536, 216);
+            this.button2.Location = new System.Drawing.Point(536, 235);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(161, 38);
             this.button2.TabIndex = 11;
@@ -208,7 +208,7 @@ namespace KursachProject_Kinoteatr
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::KursachProject_Kinoteatr.Properties.Resources.fon_4_41;
+            this.BackgroundImage = global::KursachProject_Kinoteatr.Properties.Resources.fon_4;
             this.ClientSize = new System.Drawing.Size(709, 426);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.listBox_Orderlist);

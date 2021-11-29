@@ -27,11 +27,16 @@ namespace KursachProject_Kinoteatr
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form form_service = new Form_ServiceMeny();
-            form_service.Show();
+            Form mainf = Application.OpenForms[0];
+            mainf.Show();
 
-            this.Hide();
+            this.Close();
         }
+
+
+
+        //----------------------TESTING!-----------------------------//
+
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -47,6 +52,12 @@ namespace KursachProject_Kinoteatr
             this.label3.Text = "Testing = off";
             this.label3.Visible = true;
             this.label3.ForeColor = Color.FromArgb(196, 0, 0);
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Form reg = Application.OpenForms[0];
+            reg.Show();
         }
     }
 }

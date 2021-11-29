@@ -75,7 +75,7 @@ namespace KursachProject_Kinoteatr
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::KursachProject_Kinoteatr.Properties.Resources.fon_3;
+            this.BackgroundImage = global::KursachProject_Kinoteatr.Properties.Resources.fon_31;
             this.ClientSize = new System.Drawing.Size(709, 536);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -83,6 +83,7 @@ namespace KursachProject_Kinoteatr
             this.Name = "Form_OrdersList";
             this.Text = "Form_OrdersList";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form_OrdersList_FormClosed);
+            this.Load += new System.EventHandler(this.Form_OrdersList_Load);
             this.ResumeLayout(false);
 
         }

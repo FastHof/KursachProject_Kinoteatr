@@ -153,7 +153,7 @@ namespace KursachProject_Kinoteatr
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::KursachProject_Kinoteatr.Properties.Resources.image_11;
+            this.BackgroundImage = global::KursachProject_Kinoteatr.Properties.Resources.fon_1;
             this.ClientSize = new System.Drawing.Size(709, 388);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label3);
@@ -169,6 +169,7 @@ namespace KursachProject_Kinoteatr
             this.MinimumSize = new System.Drawing.Size(725, 427);
             this.Name = "Form1";
             this.Text = "Registration";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

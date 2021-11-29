@@ -19,9 +19,10 @@ namespace KursachProject_Kinoteatr
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form reg = Application.OpenForms[0];
-            reg.Show();
-            this.Close();
+            Form login = new Form1();
+            login.Show();
+
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -29,7 +30,7 @@ namespace KursachProject_Kinoteatr
             Form form_orders = new Form_OrdersList();
             form_orders.Show();
 
-            this.Close();
+            this.Hide();
         }
     }
 }

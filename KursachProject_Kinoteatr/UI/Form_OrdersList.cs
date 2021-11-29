@@ -33,10 +33,15 @@ namespace KursachProject_Kinoteatr
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form form_service = new Form_ServiceMeny();
-            form_service.Show();
+            Form reg = Application.OpenForms[0];
+            reg.Show();
 
             this.Close();
+        }
+
+        private void Form_OrdersList_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

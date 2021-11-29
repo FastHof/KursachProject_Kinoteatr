@@ -73,9 +73,9 @@ namespace KursachProject_Kinoteatr.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap fon_2 {
+        internal static System.Drawing.Bitmap fon_1 {
             get {
-                object obj = ResourceManager.GetObject("fon 2", resourceCulture);
+                object obj = ResourceManager.GetObject("fon_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace KursachProject_Kinoteatr.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap fon_21 {
+        internal static System.Drawing.Bitmap fon_22 {
             get {
-                object obj = ResourceManager.GetObject("fon 21", resourceCulture);
+                object obj = ResourceManager.GetObject("fon_22", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,19 @@ namespace KursachProject_Kinoteatr.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap fon_3 {
+        internal static System.Drawing.Bitmap fon_31 {
             get {
-                object obj = ResourceManager.GetObject("fon 3", resourceCulture);
+                object obj = ResourceManager.GetObject("fon_31", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fon_4 {
+            get {
+                object obj = ResourceManager.GetObject("fon_4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
