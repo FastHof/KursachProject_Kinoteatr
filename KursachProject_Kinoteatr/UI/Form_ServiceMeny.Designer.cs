@@ -121,6 +121,7 @@ namespace KursachProject_Kinoteatr
             this.MinimumSize = new System.Drawing.Size(725, 427);
             this.Name = "Form_ServiceMeny";
             this.Text = "Form_ServiceMeny";
+            this.Load += new System.EventHandler(this.Form_ServiceMeny_Load);
             this.ResumeLayout(false);
 
         }
