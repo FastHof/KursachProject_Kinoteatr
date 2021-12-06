@@ -42,5 +42,13 @@ namespace KursachProject_Kinoteatr
 
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form form_editor = new Form_DataBaseEditor();
+            form_editor.Show();
+
+            this.Hide();
+        }
     }
 }
