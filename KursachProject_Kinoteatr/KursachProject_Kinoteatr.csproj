@@ -128,12 +128,12 @@
     <None Include="Resources\fon 3.png" />
     <None Include="Resources\fon 4_41.png" />
     <None Include="Resources\fon_3.png" />
-    <Content Include="Database1.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Database1_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>Database1.mdf</DependentUpon>
+    <None Include="UC_Database.mdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="UC_Database_log.ldf">
+      <DependentUpon>UC_Database.mdf</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Resources\fon_2.png" />
     <None Include="Resources\fon_31.png" />

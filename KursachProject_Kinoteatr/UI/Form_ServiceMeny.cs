@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using KursachProject_Kinoteatr.Modules;
+using System.Data.SqlClient;
 
 namespace KursachProject_Kinoteatr
 {
@@ -22,7 +23,8 @@ namespace KursachProject_Kinoteatr
         {
             Library lib = new Library();
 
-            lib.LoadSQL();
+            lib.LoadSQL(lib.SQLconnectstr);
+            lib.ComandSQL("INSERT INTO dbo.CUsers VALUES (\"test_name\", \"Dima\", \"+7 800 703 35 50\", 272737, \"no\");");
         }
 
         private void button4_Click(object sender, EventArgs e)
