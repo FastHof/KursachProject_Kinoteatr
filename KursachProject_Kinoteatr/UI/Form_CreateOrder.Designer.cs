@@ -43,6 +43,8 @@ namespace KursachProject_Kinoteatr
             this.label5 = new System.Windows.Forms.Label();
             this.listBox_Orderlist = new System.Windows.Forms.ListBox();
             this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             this.SuspendLayout();
@@ -56,6 +58,7 @@ namespace KursachProject_Kinoteatr
             this.listBox_Moves.Name = "listBox_Moves";
             this.listBox_Moves.Size = new System.Drawing.Size(169, 124);
             this.listBox_Moves.TabIndex = 0;
+            this.listBox_Moves.SelectedIndexChanged += new System.EventHandler(this.listBox_Moves_SelectedIndexChanged);
             // 
             // listBox_Show
             // 
@@ -142,6 +145,7 @@ namespace KursachProject_Kinoteatr
             this.button1.TabIndex = 9;
             this.button1.Text = "Создать заказ";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label4
             // 
@@ -204,12 +208,40 @@ namespace KursachProject_Kinoteatr
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Location = new System.Drawing.Point(362, 235);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(100, 38);
+            this.button4.TabIndex = 15;
+            this.button4.Text = "Показать зал";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Maroon;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button5.ForeColor = System.Drawing.SystemColors.Control;
+            this.button5.Location = new System.Drawing.Point(468, 330);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(58, 38);
+            this.button5.TabIndex = 16;
+            this.button5.Text = "Del";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // Form_CreateOrder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::KursachProject_Kinoteatr.Properties.Resources.fon_4;
             this.ClientSize = new System.Drawing.Size(709, 426);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.listBox_Orderlist);
             this.Controls.Add(this.label5);
@@ -251,5 +283,7 @@ namespace KursachProject_Kinoteatr
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ListBox listBox_Orderlist;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
     }
 }

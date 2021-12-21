@@ -19,12 +19,15 @@ namespace KursachProject_Kinoteatr
             InitializeComponent();
         }
 
+        public bool adminmode = false;
+
         private void Form_ServiceMeny_Load(object sender, EventArgs e)
         {
             Library lib = new Library();
+            lib.LoadSQL(lib.SQLconnection_str);
+            //lib.ComandSQL("INSERT INTO CUsers (username, name) VALUES ('fgu350', 'firgura');");
 
-            lib.LoadSQL(lib.SQLconnectstr);
-            lib.ComandSQL("INSERT INTO dbo.CUsers VALUES (\"test_name\", \"Dima\", \"+7 800 703 35 50\", 272737, \"no\");");
+            
         }
 
         private void button4_Click(object sender, EventArgs e)
